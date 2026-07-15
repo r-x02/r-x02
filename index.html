@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Rahul Kumar — Portfolio, projects, and contact. Building helpful websites and solving tech problems.">
+  <meta name="author" content="Rahul Kumar">
+  <link rel="canonical" href="https://r-x02.netlify.app/">
+  <meta name="theme-color" content="#599692">
+  <title>Rahul Kumar | R-X02</title>
+
+  <!-- Open Graph / social sharing preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rahul Kumar | R-X02">
+  <meta property="og:description"
+    content="Portfolio, projects, and contact. Building helpful websites and solving tech problems.">
+  <meta property="og:url" content="https://r-x02.netlify.app/">
+  <meta property="og:image" content="https://r-x02.netlify.app/assets/images/apple-touch-icon.png">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Rahul Kumar | R-X02">
+  <meta name="twitter:description"
+    content="Portfolio, projects, and contact. Building helpful websites and solving tech problems.">
+  <meta name="twitter:image" content="https://r-x02.netlify.app/assets/images/apple-touch-icon.png">
+
+  <!-- Apply saved theme before first paint — defaults to light regardless of system preference -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem("rk-theme");
+      document.documentElement.setAttribute("data-theme", saved || "light");
+    })();
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+
+  <!-- Syne Mono from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rahul Kumar",
+    "alternateName": "R-X02",
+    "url": "https://r-x02.netlify.app/",
+    "email": "mailto:rahul.ncworker@gmail.com",
+    "sameAs": [
+      "https://github.com/r-x02",
+      "https://www.linkedin.com/in/r-x02/"
+    ],
+    "jobTitle": "Frontend Developer",
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "Web Design", "UI/UX", "AI Tools"]
+  }
+  </script>
+</head>
+
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- Loading screen -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__text">R-X02</span>
+      <div class="loader__bar"><span class="loader__bar-fill"></span></div>
+    </div>
+  </div>
+
+  <!-- Header & navigation -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="nav__logo" aria-label="R-X02 — Home">R-X02</a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#home" class="nav__link active">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#project" class="nav__link">Project</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="12" cy="12" r="5" />
+          <line x1="12" y1="1" x2="12" y2="3" />
+          <line x1="12" y1="21" x2="12" y2="23" />
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+          <line x1="1" y1="12" x2="3" y2="12" />
+          <line x1="21" y1="12" x2="23" y2="12" />
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <main id="main-content">
+
+    <!-- Home -->
+    <section id="home" class="hero section">
+      <div class="hero__ambient" aria-hidden="true">
+        <svg viewBox="0 0 1200 800" preserveAspectRatio="none">
+          <path d="M0,180 L200,180 L240,120 L280,240 L320,180 L1200,180" />
+          <path d="M0,420 L300,420 L340,480 L380,360 L420,420 L1200,420" />
+          <path d="M0,650 L250,650 L290,600 L330,700 L370,650 L1200,650" />
+        </svg>
+      </div>
+      <div class="hero__spotlight" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal-line">Learning · Building · Creating</p>
+          <h1 class="hero__title">
+            <span class="hero__title-line"><span class="hero__title-line-inner">Solving tech problems</span></span>
+            <span class="hero__title-line"><span class="hero__title-line-inner"><span class="hero__accent">one project</span> at a time.</span></span>
+          </h1>
+          <p class="hero__desc reveal-line">
+            I love making websites and projects that help people in meaningful ways —
+            learning as I go, and building with the support of modern AI tools.
+          </p>
+          <div class="hero__actions reveal-line">
+            <a href="#project" class="btn btn--primary">View Work</a>
+            <a href="#contact" class="btn btn--outline">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero__terminal" aria-hidden="true">
+          <div class="hero__terminal-line"><span class="hero__prompt">$</span>whoami</div>
+          <div class="hero__terminal-out">→ Rahul Kumar <span>/ R-X02</span></div>
+          <div class="hero__terminal-line"><span class="hero__prompt">$</span>role</div>
+          <div class="hero__terminal-out">→ <span>Frontend</span> Developer</div>
+          <div class="hero__terminal-line"><span class="hero__prompt">$</span>status</div>
+          <div class="hero__terminal-out">→ Building, always learning<span class="hero__cursor"></span></div>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll to About">
+        <span>Scroll</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          width="20" height="20">
+          <path d="M12 5v14M5 12l7 7 7-7" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about section">
+      <div class="container about__grid">
+        <div class="about__image-wrap">
+          <!-- Profile photo: place profile.jpg in /assets/images/ (see README) -->
+          <img src="assets/images/profile.png" alt="Portrait of Rahul Kumar" class="about__image" width="400"
+            height="500" loading="lazy">
+          <div class="about__image-border" aria-hidden="true"></div>
+        </div>
+        <div class="about__content">
+          <h2 class="section__title">About</h2>
+          <p class="about__lead">
+            I'm Rahul Kumar — still learning, always curious, and driven by
+            the joy of solving problems through technology.
+          </p>
+          <p class="about__text">
+            I almost didn't end up in tech. In 2020, I had to step away from my engineering program — not because I
+            wanted to, but because life had other plans. So instead of waiting for circumstances to change, I started
+            moving: teaching mathematics, then spending three years as a Computer Operator at CSC Centers, where I
+            helped everyday people access government services they'd never used digitally before.
+
+            That experience rewired how I think about technology. When you watch someone encounter a digital interface
+            for the first time — confused, then slowly getting it — you stop thinking about code for its own sake. You
+            start thinking about people. What they actually need. What trips them up. What makes something finally
+            click.
+
+            I graduated with a B.Sc. in Mathematics in 2024 and I'm now building seriously in frontend development, AI
+            tools, and Python. My approach hasn't changed: understand what someone actually needs first, then build
+            toward that — not the other way around.
+
+            I ask a lot of questions. I fail fast. I don't stop until it makes sense. My motto is simple: try, fail,
+            learn, repeat — and you'll win more than you lose, but more importantly, you'll learn more than most.
+
+            Outside of tech: I chase light with my phone camera. Landscapes mostly. It keeps me paying attention to the
+            world, which I think makes me better at this work.
+
+            If you have a problem worth solving, I'd love to hear about it.
+          </p>
+          <ul class="about__skills">
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>Web Design</li>
+            <li>AI Tools</li>
+            <li>Problem Solving</li>
+            <li>UI / UX</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section id="project" class="project section">
+      <div class="container">
+        <h2 class="section__title section__title--center">Projects</h2>
+        <p class="section__subtitle">Work I've built while learning, experimenting, and solving real problems.</p>
+
+        <div class="project__grid">
+          <article class="project__card">
+            <div class="project__card-accent" aria-hidden="true"></div>
+            <div class="project__card-body">
+              <span class="project__tag">Web App · React / TypeScript</span>
+              <h3 class="project__title">CineJudge</h3>
+              <p class="project__desc">
+                A clean, community-driven rating site for movies, K-dramas, anime, and
+                more — one score per viewer, a live Top 10 leaderboard, and personal
+                recommendations based on what you've rated.
+              </p>
+              <div class="project__links">
+                <a href="https://cinejudge.lovable.app/" class="btn btn--primary project__link" target="_blank"
+                  rel="noopener noreferrer">
+                  Live Demo
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" width="18" height="18" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+                <a href="https://github.com/r-x02/cinejudge" class="btn btn--outline project__link" target="_blank"
+                  rel="noopener noreferrer">
+                  Source
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18"
+                    height="18" aria-hidden="true">
+                    <path
+                      d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.41-5.25 5.7.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.2.67.8.56A10.52 10.52 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project__card">
+            <div class="project__card-accent" aria-hidden="true"></div>
+            <div class="project__card-body">
+              <span class="project__tag">Web App · React / Tailwind</span>
+              <h3 class="project__title">Cloud Resume Builder</h3>
+              <p class="project__desc">
+                An ATS-friendly resume builder — fill out a simple form, preview the
+                result in real time, and export a clean, professional PDF in minutes.
+              </p>
+              <div class="project__links">
+                <a href="https://cloudresume-builder.vercel.app/" class="btn btn--primary project__link"
+                  target="_blank" rel="noopener noreferrer">
+                  Live Demo
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" width="18" height="18" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+                <a href="https://github.com/r-x02/cloudresume-builder" class="btn btn--outline project__link"
+                  target="_blank" rel="noopener noreferrer">
+                  Source
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18"
+                    height="18" aria-hidden="true">
+                    <path
+                      d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.41-5.25 5.7.41.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.2.67.8.56A10.52 10.52 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section">
+      <div class="container contact__grid">
+        <div class="contact__intro">
+          <h2 class="section__title">Contact</h2>
+          <p class="contact__text">
+            Got a project in mind, a question, or just want to say hi? I'd genuinely
+            love to hear from you. Email's the fastest way to reach me — pick whichever
+            channel feels easiest and I'll get back to you soon.
+          </p>
+        </div>
+        <div class="contact__options">
+          <a href="mailto:rahul.ncworker@gmail.com" class="contact__item">
+            <span class="contact__label">Email</span>
+            <span class="contact__value">rahul.ncworker@gmail.com</span>
+          </a>
+          <a href="https://github.com/r-x02" class="contact__item" target="_blank" rel="noopener noreferrer">
+            <span class="contact__label">GitHub</span>
+            <span class="contact__value">github.com/r-x02</span>
+          </a>
+          <a href="https://www.linkedin.com/in/r-x02/" class="contact__item" target="_blank" rel="noopener noreferrer">
+            <span class="contact__label">LinkedIn</span>
+            <span class="contact__value">linkedin.com/in/r-x02</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="year"></span> Rahul Kumar. All rights reserved.</p>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+    </div>
+  </div>
+  <div id="smooth-spacer" aria-hidden="true"></div>
+
+  <script src="js/hero.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
